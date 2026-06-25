@@ -1,0 +1,126 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #fffce6;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.link-container {
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    margin-top: -16px;
+    font-weight: 600;
+}
+
+.profile-img {
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: 8px solid wheat;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.skill-container {
+    background-color: #ECB65F;
+    width: 800px;
+    padding: 16px;
+    display: flex;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+.skill-card {
+    background-color: bisque;
+    padding: 12px;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.skill-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.skill-content {
+    margin: 0;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+
+
+.exp-container {
+    /* background-color: #56a8ff; */
+    background-color: #ECB65F;
+    width: 800px;
+    padding: 16px;
+    display: flex;
+    gap: 12px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.exp-card {
+    /* background-color: lightblue; */
+    background-color: bisque;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.exp-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.exp-content {
+    margin: 0;
+    margin-top: 4px;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.product-link {
+    background-color: #7a5519;
+    color: white;
+    padding: 4px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.contact-container {
+    margin: 0;
+    /* margin-bottom: 20px; */
+    font-size: 18px;
+    /* background-color: #ECB65F; */
+    padding: 4px;
+    gap: 12px;
+    /* border-radius: 12px; */
+    display: flex;
+}
+
+.contact-text {
+    border-radius: 12px;
+    background-color: #d29d48;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 4px 10px;
+}
