@@ -13,6 +13,17 @@
         "wdth" 100;
 }
 
+.link-nav {
+    width: 60%;
+    border-radius: 20px;
+    background-color: #d29d48;
+    text-align: center; 
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+}
+
 .link-container {
     display: flex;
     gap: 8px;
@@ -23,15 +34,15 @@
 
 .profile-img {
     border-radius: 100%;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border: 8px solid wheat;
 }
 
 .name {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
-    margin: 0;
+    margin-bottom: 0;
     margin-top: 10px;
 }
 
