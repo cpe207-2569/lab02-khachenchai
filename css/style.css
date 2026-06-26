@@ -17,8 +17,8 @@
     width: 60%;
     border-radius: 20px;
     background-color: #d29d48;
-    text-align: center; 
-    color: whitesmoke;
+    text-align: center;
+    color: purple;
     font-size: 20px;
     padding: 12px;
     font-weight: 700;
@@ -48,7 +48,8 @@
 
 .skill-container {
     background-color: #ECB65F;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     padding: 16px;
     display: flex;
     gap: 12px;
@@ -79,7 +80,8 @@
 .exp-container {
     /* background-color: #56a8ff; */
     background-color: #ECB65F;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     padding: 16px;
     display: flex;
     gap: 12px;
@@ -114,17 +116,24 @@
     padding: 4px;
     margin-top: 8px;
     border-radius: 4px;
+    transition: linear;
+    transition-duration: 100ms;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.product-link:hover {
+    background-color: #3c2a0c;
 }
 
 .contact-container {
-    margin: 0;
-    /* margin-bottom: 20px; */
     font-size: 18px;
-    /* background-color: #ECB65F; */
     padding: 4px;
     gap: 12px;
-    /* border-radius: 12px; */
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 800px;
 }
 
 .contact-text {
@@ -134,4 +143,30 @@
     font-weight: 600;
     font-size: 16px;
     padding: 4px 10px;
+    transition: linear;
+    transition-duration: 200ms;
+}
+
+.contact-text:hover {
+    background-color: #3c2a0c;
+    scale: 1.05;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+hr {
+    height: 1px;
+    background-color: #b9b9b9;
+    width: 80%;
+}
+
+.nav-a:hover {
+    color: #3c2a0c;
+    text-shadow: 2px 2px #ffd900;
+    transition: all;
+    transition-duration: 200ms;
 }
