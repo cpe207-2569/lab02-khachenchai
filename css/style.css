@@ -171,3 +171,8 @@ hr {
     transition: all;
     transition-duration: 200ms;
 }
+
+.current-link {
+    color: #3c2a0c;
+    text-shadow: 2px 2px #ffd900;
+}
